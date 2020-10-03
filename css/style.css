@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+/* RESET */
+div #box {
+    width: 1000px;
+    background-color:  #333;
+    margin: 0 auto;
+}
+
+/* BARRA */
+div #barra_top {
+    float: left;
+    width: 1000px;
+    height: 34px;
+    background-color: #069;
+    border-bottom: 1px solid #333;
+}
+
+/* HEADER */
+div #header {
+    float: left;
+    width: 1000px;
+    height: 53px;
+    background-color: #069;
+}
