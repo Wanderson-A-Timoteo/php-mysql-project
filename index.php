@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ma Belle Lingerie | Página Inicial</title>
-    <link rel="stylesheet" href="styles/style.css" media="all" />
+    <link rel="stylesheet" href="css/style.css" media="all" />
 </head>
 <body>
     <div class="main_wrapper">
@@ -31,7 +31,7 @@
 
         <div class="content_wrapper">
             <div id="sidebar">
-                <div id="sidebar_title"> Categorias: </div>
+                <div id="sidebar_title"> Categorias </div>
                     <ul id="cats">
                         <li><a href="#">Calcinha</a></li>
                         <li><a href="#">Sutiã</a></li>
@@ -42,6 +42,20 @@
                         <li><a href="#">Cueca Box</a></li>
                         <li><a href="#">Samba Canção</a></li>
                     </ul>
+
+                    <div id="sidebar_title"> Marcas | Modelos </div>
+                        <ul id="cats">
+                            <li><a href="#">Valisere</a></li>
+                            <li><a href="#">Darling</a></li>
+                            <li><a href="#">Liz</a></li>
+                            <li><a href="#">Plie</a></li>
+                            <li><a href="#">Duloren</a></li>
+                            <li><a href="#">Giorge</a></li>
+                            <li><a href="#">Hope</a></li>
+                            <li><a href="#">Lupo</a></li>
+                            <li><a href="#">Skala</a></li>
+                        </ul>
+                    </div>
                 </div>
             <div id="content_area">content area</div>
             <div id="footer">rodape</div>
