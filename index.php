@@ -1,4 +1,9 @@
 <!DOCTYPE html>
+<?php
+
+    include("functions/functions.php");
+
+?>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -33,29 +38,17 @@
             <div id="sidebar">
                 <div id="sidebar_title"> Categorias </div>
                     <ul id="cats">
-                        <li><a href="#">Calcinha</a></li>
-                        <li><a href="#">Sutiã</a></li>
-                        <li><a href="#">Body</a></li>
-                        <li><a href="#">Conjunto</a></li>
-                        <li><a href="#">Baby Doll</a></li>
-                        <li><a href="#">Camisolas</a></li>
-                        <li><a href="#">Cueca Box</a></li>
-                        <li><a href="#">Samba Canção</a></li>
+                        <?php
+                            getCats();
+                        ?>
                     </ul>
 
                     <div id="sidebar_title"> Marcas | Modelos </div>
                         <ul id="cats">
-                            <li><a href="#">Valisere</a></li>
-                            <li><a href="#">Darling</a></li>
-                            <li><a href="#">Liz</a></li>
-                            <li><a href="#">Plie</a></li>
-                            <li><a href="#">Duloren</a></li>
-                            <li><a href="#">Giorge</a></li>
-                            <li><a href="#">Hope</a></li>
-                            <li><a href="#">Lupo</a></li>
-                            <li><a href="#">Skala</a></li>
+                        <?php
+                            getMarca();
+                        ?>
                         </ul>
-                    </div>
                 </div>
             <div id="content_area">content area</div>
             <div id="footer">rodape</div>
