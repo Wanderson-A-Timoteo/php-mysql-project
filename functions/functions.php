@@ -19,6 +19,8 @@ while ($row_cats = mysqli_fetch_array($run_cats)) {
     }
 }
 
+    // Pegando os dados da Marca | Modelo
+
 function getMarca() {
 
     global $con;
